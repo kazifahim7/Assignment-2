@@ -467,7 +467,7 @@ ol {
     background: #FF5400;
     color: #FFF;
     transform: rotate(-19.628deg);
-    max-width: 250px;
+    width: 250px;
     /* height: 70px; */
     padding: 25px;
     position: relative;
