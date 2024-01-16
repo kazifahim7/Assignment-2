@@ -452,8 +452,8 @@ ol {
     flex-shrink: 0;
     position: relative;
     height: 422px;
-   
-   
+
+
 }
 
 .section-11 {
@@ -492,10 +492,50 @@ ol {
     font-weight: 800;
 
 }
-.container{
+
+.container {
     height: 422px;
 }
 
+.footer-section {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.travel-name-footer-description {
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+.icon-container {
+    align-items: center;
+    /* border: 2px solid tomato; */
+    width: 174.322px;
+    height: 24px;
+    flex-shrink: 0;
+    margin-left: 40%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+.footer-end {
+    color: #131318;
+    font-size: 16px;
+    font-weight: 300;
+    align-items: center;
+    margin: 20px;
+}
+.footer{
+    background: rgba(19, 19, 24, 0.05);
+    margin-top: 30px;
+    padding: 40px;
+}
 
 
 
@@ -589,23 +629,29 @@ ol {
         margin: 0px 18px;
         max-width: 575px;
     }
-    .section-11{
+
+    .section-11 {
         flex-direction: column;
 
     }
-    .news-later{
+
+    .news-later {
         margin: 10px 30px;
     }
+
     #news {
         padding: 10px 30px;
     }
+
     .Subscribe {
         padding: 10px 40px;
     }
-    .discount{
+
+    .discount {
         left: 22px;
     }
-    .container{
+
+    .container {
         margin: 10px 20px;
     }
 
@@ -704,23 +750,29 @@ ol {
         max-width: 400px;
 
     }
-    .section-11{
+
+    .section-11 {
         flex-direction: column;
 
     }
-    .news-later{
+
+    .news-later {
         margin: 10px 30px;
     }
+
     #news {
         padding: 10px 30px;
     }
+
     .Subscribe {
         padding: 10px 40px;
     }
-    .discount{
+
+    .discount {
         left: 200px;
     }
-    .container{
+
+    .container {
         margin: 10px 20px;
     }
 
