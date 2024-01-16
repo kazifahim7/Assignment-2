@@ -467,8 +467,8 @@ ol {
     background: #FF5400;
     color: #FFF;
     transform: rotate(-19.628deg);
-    width: 250px;
-    height: 70px;
+    max-width: 250px;
+    /* height: 70px; */
     padding: 25px;
     position: relative;
     bottom: 170px;
@@ -649,7 +649,8 @@ ol {
     }
 
     .discount {
-        left: 22px;
+        left: 25px;
+        
     }
 
     .container {
@@ -657,6 +658,12 @@ ol {
     }
     .icon-container{
         margin-left: 28%;
+    }
+    .discount h5{
+        font-size: 1.2rem;
+    }
+    .discount h4{
+        font-size: 1.8rem;
     }
 
 
